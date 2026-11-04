@@ -3,7 +3,7 @@ title: 에세이
 ---
 <div class="ix">
 <h1>에세이</h1>
-<p class="ix-lead" style="margin-top:14px">다이제스트와 팁에서 걸린 것을 붙잡아 쓴 글.</p>
+<p class="ix-lead" style="margin-top:14px; color:var(--ink)">다이제스트와 팁에서 걸린 것을 붙잡아 쓴 글.</p>
 <div class="btns"><a class="btn" id="write" href="https://github.com/MrTMI-0315/mrtmi-x-digest/new/main/essays">새 글 쓰기</a></div>
 </div>
 
