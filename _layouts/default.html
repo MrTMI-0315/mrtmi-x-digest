@@ -39,10 +39,11 @@ strong, b { font-weight: 500; }
 .col { padding: 0 var(--m) 0 var(--pad); }
 
 /* hero: 워드마크 */
-.hero { padding-top: var(--m); }
-.top { display: flex; justify-content: space-between; align-items: center; min-height: 44px; font-size: var(--s-small); color: var(--muted); }
+.hero { padding-top: var(--m); padding-bottom: 40px; background: var(--field); color: var(--field-ink); }
+.hero :focus-visible { outline-color: var(--field-ink); }
+.top { display: flex; justify-content: space-between; align-items: center; min-height: 44px; font-size: var(--s-small); color: var(--field-muted); }
 .top nav { display: flex; gap: 0 22px; }
-.top a { min-height: 44px; display: inline-flex; align-items: center; color: var(--ink); font-weight: 500; text-decoration: none; }
+.top a { min-height: 44px; display: inline-flex; align-items: center; color: var(--field-ink); font-weight: 500; text-decoration: none; }
 .mark { margin: 12vh 0 0 calc(-0.05em); font: 400 var(--s-display)/0.8 var(--f-latin); letter-spacing: -0.04em; white-space: nowrap; }
 .mark a { text-decoration: none; }
 
