@@ -1,6 +1,6 @@
 <div class="ix">
 <p class="ix-lead">X에서 AI · Robotics · Insights 주제로 모은 글과, 바로 써먹을 팁을 쌓아 두는 곳.</p>
-<a class="ix-tips" href="{{ '/tips.html' | relative_url }}">팁 모음 보기</a>
+<div class="btns"><a class="btn" href="{{ '/tips.html' | relative_url }}">팁 모음 보기</a><a class="btn btn-line" href="{{ '/essays/' | relative_url }}">에세이</a></div>
 </div>
 
 <h2 class="ix-h">다이제스트</h2>
