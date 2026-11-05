@@ -29,5 +29,6 @@
 - [2026-11-05] [frax: 휴머노이드 리타게팅·IK를 GPU 없이 마이크로초 단위로 푸는 라이브러리 (github.com/StanfordASL/frax)](https://x.com/danielpmorton/status/2118026028572680195) — @danielpmorton
 - [2026-11-05] [120~200달러짜리 오픈소스 6족 로봇: 다리당 서보 3개, 18자유도, 3D 프린팅 부품](https://x.com/techniahqrobot/status/2117851633014943780) — @techniahqrobot
 - [2026-11-05] [MABEL: 부품비 8,000달러 오픈소스 모바일 양팔 로봇, 하드웨어·펌웨어·원격조작·학습 코드 전부 공개](https://x.com/thejerrycheng/status/2117980190840127637) — @thejerrycheng
+- [2026-11-05] [6개월 로보틱스 엔지니어 로드맵: 전자→MCU·모터→CAD→ROS 2→제어·인식 수학→로봇 학습, 달마다 실습과 마일스톤, 자료 100여 개 (아티클, 한국어 요약은 골라 온 글에)](https://x.com/DeRonin_/status/2095180126359105955) — @DeRonin\_
 
 ## Insights
