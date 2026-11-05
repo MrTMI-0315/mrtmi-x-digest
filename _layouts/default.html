@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..500&family=Noto+Sans+KR:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <style>
 /* morning-wire 토큰을 그대로 가져옴 */
 :root {
@@ -110,6 +111,15 @@ strong, b { font-weight: 500; }
 .es-body li { padding: 4px 0; border: 0; }
 .es-body li:last-child { border: 0; }
 .es-body li a:first-of-type { font-weight: 400; }
+/* 긴 글 읽기: 목록 스타일(작은 회색 글씨)을 본문 크기로 되돌림 */
+.es-body strong, .es-body b { font-weight: 700; }
+.es-body li strong:first-child { display: inline; font-size: inherit; color: inherit; font-weight: 700; }
+.es-body li a { font-size: inherit; color: inherit; }
+.es-body h2 { margin-bottom: 0.6em; letter-spacing: -0.01em; }
+.es-body table { display: block; overflow-x: auto; margin: 0 0 1.6em; border-collapse: collapse; font-size: var(--s-small); line-height: 1.6; }
+.es-body th, .es-body td { padding: 10px 14px 10px 0; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+.es-body th { font-weight: 700; border-bottom-color: var(--ink); white-space: nowrap; }
+.es-body td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
 
 /* 푸터 */
 .foot { background: var(--field); color: var(--field-ink); padding: var(--m); min-height: 60svh; display: grid; grid-template-rows: auto 1fr auto auto; }
@@ -142,7 +152,8 @@ strong, b { font-weight: 500; }
   <p class="mark"><a href="{{ '/' | relative_url }}">Mr TMI's x digest</a></p>
 </header>
 <main class="col doc">
-{% if page.dir == '/essays/' and page.name != 'index.md' %}<article class="essay">
+{% assign reading = false %}{% if page.name != 'index.md' %}{% if page.dir == '/essays/' or page.dir == '/picks/' %}{% assign reading = true %}{% endif %}{% endif %}
+{% if reading %}<article class="essay">
 <h1>{{ page.title }}</h1>
 <p class="es-meta">{{ page.date | date: "%Y-%m-%d" }} · <a href="https://github.com/MrTMI-0315/mrtmi-x-digest/edit/main/{{ page.path }}">이 글 편집</a></p>
 <div class="es-body">

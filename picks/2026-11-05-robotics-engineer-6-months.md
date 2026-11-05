@@ -2,8 +2,6 @@
 title: 6개월 만에 로보틱스 엔지니어 되기 (로드맵과 자료)
 date: 2026-11-05
 ---
-# 6개월 만에 로보틱스 엔지니어 되기
-
 원문: [How to become a Robotics Engineer in 6 months (RESOURCES)](https://x.com/DeRonin_/status/2095180126359105955) — @DeRonin\_ · 2026-09-03 · 영어 아티클, 약 12,000단어
 
 > 원문을 한국어로 요약한 글이다. 링크 100여 개, 실습 27개, 예산별 장비 목록과 구매처는 원문에서 본다.
